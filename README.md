@@ -1,7 +1,7 @@
 
 # ربات پیشرفته مدیریت و سرگرمی گروه تلگرام
 
-ربات تلگرامی قدرتمند با قابلیت‌های مدیریت گروه، سیستم سطح و تجربه، بازی‌ها، سرگرمی‌های متنوع، هوش مصنوعی و ده‌ها ویژگی دیگر.
+ربات روبیکایی قدرتمند با قابلیت‌های مدیریت گروه، سیستم سطح و تجربه، بازی‌ها، سرگرمی‌های متنوع، هوش مصنوعی و ده‌ها ویژگی دیگر.
 
 ## ویژگی‌ها
 
@@ -26,7 +26,7 @@
 
 1. کلون کنید:
 ```bash
-git clone https://github.com/yourusername/bot.git
+git clone https://github.com/hosseinghorbani0/bot.git
 cd bot
 ```
 
@@ -42,7 +42,7 @@ bot = Robot("TOKEN_HERE", enable_offset=True, max_msg_age=90000)
 
 4. اجرا:
 ```bash
-python bot.py
+python rubi_bot.py
 ```
 
 ## دستورات سریع
