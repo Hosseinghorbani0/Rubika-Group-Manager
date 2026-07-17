@@ -1,0 +1,6 @@
+aiosqlite
+httpx
+beautifulsoup4
+jdatetime
+rubka
+pillow

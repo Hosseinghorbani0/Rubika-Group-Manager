@@ -1,0 +1,23 @@
+{
+  "link": "لینک",
+  "mention": "منشن",
+  "hashtag": "هشتگ",
+  "forward": "فوروارد",
+  "contact": "شماره تماس",
+  "location": "لوکیشن",
+  "poll": "نظرسنجی",
+  "media": "رسانه",
+  "sticker": "استیکر",
+  "anti_flood": "کد هنگی",
+  "anti_ad": "ضد تبلیغ",
+  "anti_curse": "ضد فحش",
+  "anti_hung": "ضد هنگی",
+  "anti_emoji": "ضد ایموجی",
+  "anti_edit": "ضد ویرایش",
+  "anti_mention": "ضد منشن",
+  "gif": "گیف",
+  "speaker": "سخنگو",
+  "captcha": "کپچا",
+  "bot_status": "وضعیت ربات",
+  "group_lock": "قفل گروه"
+}
