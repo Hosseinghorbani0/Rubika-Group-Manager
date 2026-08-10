@@ -1,0 +1,22 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Local runtime state
+*.db
+*.sqlite3
+message.json
+stderr.log
+offset_id.txt
+_tmp*.txt
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE / OS junk
+.vscode/
+.DS_Store
