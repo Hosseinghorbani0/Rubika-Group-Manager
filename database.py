@@ -86,20 +86,6 @@ async def close_db_connection():
             logger.info("Database connection closed")
 
 
-async def initialize_database_layers():
-    """راه‌اندازی لایه‌های پایگاه داده به ترتیب امن و قابل بازاستفاده."""
-    from state import init_db_advanced
-    from utils import init_db_async
-
-    await init_db_async()
-    await init_db_advanced()
-
-
-async def ensure_database_ready():
-    """تأیید و آماده‌سازی دیتابیس قبل از استفاده در مسیرهای اصلی."""
-    await initialize_database_layers()
-
-
 # ==================== توابع مدیریت سطح و تجربه ====================
 async def add_user_xp(chat_id, user_id, xp_amount=5):
     """اضافه کردن تجربه به کاربر"""
