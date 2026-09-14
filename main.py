@@ -11,7 +11,7 @@ from handler import private_handler
 from manager import group_handler, check_expired_mutes
 from state import user_games, init_db_advanced
 from database import cleanup_expired_captcha_sessions, close_db_connection
-
+print("chek")
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
